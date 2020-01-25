@@ -47,7 +47,7 @@ public class Product {
 	public String getPrice() {
 		return price;
 	}
-	public void sePrice(String price) {
+	public void setPrice(String price) {
 		this.price = price;
 	}
 	
@@ -63,6 +63,4 @@ public class Product {
 	public String toString() {
 		return "Product [id=" + id + ", name=" + name + ", price=" + price + ", contact=" + contact + "]";
 	}
-	
-	
 }
